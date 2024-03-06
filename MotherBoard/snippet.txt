@@ -1,0 +1,36 @@
+<model-viewer src="asus_z170-p_motherboard.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.15057523080296312m 0.026721121636652648m -0.13416669584326177m" data-normal="0.02496617705840751m 0.9986571664576629m -0.04539332424310785m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">RAM接口</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.2379480887022392m 0.042190461813087644m -0.08221235145640228m" data-normal="0.10179250973146453m 0.9947948951526556m -0.004626179934541241m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">電源輸入口</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.006317811416831992m 0.015622381377712068m -0.15026048897246103m" data-normal="0.028563132492129453m 0.9570922121945677m 0.28837240647944434m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">CPU腳位</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.23055456153369863m 0.0552699233402596m -0.03894635213357282m" data-normal="-0.13373840593209907m 0.9457354549564713m 0.29613930508633524m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">USB、LAN、AUX</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.054969995211908144m 0.03666449776210255m 0.06866852826000622m" data-normal="1.387778780781446e-17m 0.9785502212577938m -0.20600840875149545m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">GPU接口</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.11546126009626867m 0.02615453030533782m 0.123991500835021m" data-normal="-1.6543612251060553e-24m 0.999999999999993m -1.1920930198527913e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">主板預備電池</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="0.08958176871918941m 0.028972168653177432m 0.027119372965668784m" data-normal="-0.9379720638216247m 0.3360609078157165m -0.0852729366697233m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PCIE SSD接口</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="0.20881002544544464m 0.0293151108897717m 0.28863229768018234m" data-normal="-0.182867163058723m -0.02285023478622732m 0.9828720503936761m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">SATA SSD接口</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="-0.07758001421439654m 0.030396359643349004m -0.16522940671317216m" data-normal="-0.3467799942217955m 0.9367536517527534m 0.04728880983290849m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">CPU電供</div>
+    </button><button class="Hotspot" slot="hotspot-12" data-position="0.23467091941302817m 0.021949145949473236m 0.013776471770222454m" data-normal="0.590979166259199m 0.8053541770925907m 0.0463494820585725m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">前置USB</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="-0.14885993001349748m 0.04552713461424565m -0.292904006103395m" data-normal="0.002566905791362541m 0.9985426522343893m 0.053907167087224185m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">CPU風扇電源</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="0.008214965972058896m 0.015778719965119092m 0.3189702478477883m" data-normal="-0.8863873057631093m 0.38835846296657933m 0.2519826351641162m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">風扇電源</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
